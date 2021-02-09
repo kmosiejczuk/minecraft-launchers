@@ -7,3 +7,6 @@ OpenBSD. Tested on 6.8-current as of 2021-02-07
 
 These are still pretty crude (having edit them to put in your username
 and password), but they _work_.
+
+(Technically, you only need the lwjgl ports for 1.12.2 or earlier. Also,
+one only needs lwjgl3 for >= 1.13)
