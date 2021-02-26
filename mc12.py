@@ -45,8 +45,8 @@ print("Done")
 #print(minecraft_command)
 
 username = login_data["selectedProfile"]["name"]
-uuid = login_data["selectedProfile"]["id"]
-token = login_data["accessToken"]
+uuid     = login_data["selectedProfile"]["id"]
+token    = login_data["accessToken"]
 
 real_command = ['/usr/local/jdk-11/bin/java',
   '-Djava.library.path=/usr/local/share/lwjgl/',
