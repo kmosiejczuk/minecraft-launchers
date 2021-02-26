@@ -88,7 +88,6 @@ real_command = ['/usr/local/jdk-11/bin/java',
   + libdir + 'org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar:'
   + libdir + 'org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:'
   + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:'
-  + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar:'
   + lwjgl3_libs
   + mc_directory + '/versions/' + mc_version + '/' + mc_version + '.jar',
   'net.minecraft.client.main.Main',
