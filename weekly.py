@@ -59,7 +59,7 @@ real_command = [
   '/usr/local/jdk-11/bin/java',
   '-Xms1G',
   '-Xmx2G',
-  '-Djava.library.path=' + mc_directory + '/versions/21w07a/natives',
+  '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
   '-cp',

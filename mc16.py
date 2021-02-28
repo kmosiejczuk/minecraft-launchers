@@ -10,7 +10,7 @@ mc_version = "1.16.5"
 asset_index = "1.16"
 
 # Your email, username and password below
-login = "yourEmailUsername"
+login    = "yourEmailUsername"
 password = "seekritPasswordHere"
 
 # Get Minecraft directory
@@ -58,7 +58,7 @@ token    = login_data["accessToken"]
 real_command = ['/usr/local/jdk-11/bin/java',
   '-Xms1G',
   '-Xmx2G',
-  '-Djava.library.path=' + mc_directory + '/versions/' + mc_version +'/natives',
+  '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
   '-cp',

@@ -10,7 +10,7 @@ mc_version = "1.12.2"
 asset_index = "1.12"
 
 # Your email, username and password below
-login = "yourEmailUsername"
+login    = "yourEmailUsername"
 password = "seekritPasswordHere"
 
 # Get Minecraft directory

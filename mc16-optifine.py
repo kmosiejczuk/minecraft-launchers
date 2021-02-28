@@ -60,11 +60,11 @@ token =    login_data["accessToken"]
 
 real_command = [
   '/usr/local/jdk-11/bin/java',
-  '-Xms1G',
-  '-Xmx2G',
-  '-Djava.library.path=' + mc_directory + '/versions/1.16.5-OptiFine_HD_U_G7/natives',
+  '-Xms2G',
+  '-Xmx3G',
+  '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
-  '-Dminecraft.launcher.version=2.2',
+  '-Dminecraft.launcher.version=2.1',
   '-cp',
   libdir + 'optifine/OptiFine/1.16.5_HD_U_G7/OptiFine-1.16.5_HD_U_G7.jar:'
   + libdir + 'optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar:'
@@ -95,7 +95,6 @@ real_command = [
   + libdir + 'org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:'
   + lwjgl3_libs
   + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:'
-  + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar:'
   + mc_directory + '/versions/' + mc_version + '/' + mc_version + '.jar',
   'net.minecraft.launchwrapper.Launch',
   '--username', username,
