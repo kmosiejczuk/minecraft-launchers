@@ -7,7 +7,8 @@ import subprocess
 mc_version = "1.13.2"
 
 # Asset index is same but without final revision
-asset_index = "1.13"
+# (EXCEPT for 1.13)
+asset_index = "1.13.1"
 
 # Your email, username and password below
 login    = "yourEmailUsername"
@@ -62,7 +63,6 @@ real_command = [
   '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=0.5',
-  '-Dos.version=OpenBSD_6.7',
   '-cp',
   lwjgl3_libs
   + libdir + '/com/mojang/patchy/1.1/patchy-1.1.jar:'
