@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/local/bin/python3 -u
 
 import minecraft_launcher_lib as mll
 import subprocess

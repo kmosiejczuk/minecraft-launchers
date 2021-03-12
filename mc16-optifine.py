@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/local/bin/python3 -u
 
 # You'll need to install OptiFine and Minecraft 1.16.5 before this will
 # work. The mc16.py script will install Minecraft for you.
