@@ -56,7 +56,7 @@ uuid =     login_data["selectedProfile"]["id"]
 token =    login_data["accessToken"]
 
 real_command = [
-  '/usr/local/jdk-11/bin/java',
+  '/usr/local/jdk-16/bin/java',
   '-Xms1G',
   '-Xmx2G',
   '-Djava.library.path=/usr/local/share/lwjgl3/',
