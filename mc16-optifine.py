@@ -7,7 +7,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "1.16.5-OptiFine_HD_U_G7"
+mc_version = "1.16.5-OptiFine_HD_U_G8"
 
 # Asset index is same but without final revision
 asset_index = "1.16"
@@ -66,7 +66,7 @@ real_command = [
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
   '-cp',
-  libdir + 'optifine/OptiFine/1.16.5_HD_U_G7/OptiFine-1.16.5_HD_U_G7.jar:'
+  libdir + 'optifine/OptiFine/1.16.5_HD_U_G8/OptiFine-1.16.5_HD_U_G8.jar:'
   + libdir + 'optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar:'
   + libdir + 'com/mojang/patchy/1.1/patchy-1.1.jar:'
   + libdir + 'oshi-project/oshi-core/1.1/oshi-core-1.1.jar:'
