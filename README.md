@@ -12,3 +12,8 @@ and password), but they _work_.
 
 (Technically, you only need the lwjgl ports for 1.12.2 or earlier. Also,
 one only needs lwjgl3 for >= 1.13)
+
+mc-get-cmdline.py is a script to just query the cmdline that the launcher
+library gets from minecraft. I use that information to generate these
+scripts (I need to edit them to put our OpenBSD libraries in). It might
+be useful for you.
