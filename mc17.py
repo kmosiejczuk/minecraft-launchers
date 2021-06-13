@@ -83,7 +83,7 @@ real_command = [
   + libdir + 'com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:'
   + libdir + 'com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:'
   + libdir + 'com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:'
-  + libdir + 'com/mojang/authlib/2.2.31/authlib-2.2.31.jar:'
+  + libdir + 'com/mojang/authlib/2.2.30/authlib-2.2.30.jar:'
   + libdir + 'org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:'
   + libdir + 'org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:'
   + libdir + 'commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:'
