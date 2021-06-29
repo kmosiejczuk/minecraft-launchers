@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "21w20a"
+mc_version = "1.17.1-pre1"
 
 # Asset index is same but without final revision
 asset_index = "1.17"
@@ -57,16 +57,19 @@ token =    login_data["accessToken"]
 
 real_command = [
   '/usr/local/jdk-16/bin/java',
-  '-Xms1G',
-  '-Xmx2G',
+  '-Xms2G',
+  '-Xmx3G',
   '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
   '-cp',
-  libdir + 'com/mojang/patchy/1.1/patchy-1.1.jar:'
-  + libdir + 'oshi-project/oshi-core/1.1/oshi-core-1.1.jar:'
-  + libdir + 'net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar:'
-  + libdir + 'net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:'
+  libdir + 'com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar:'
+  + libdir + 'com/mojang/patchy/2.1.6/patchy-2.1.6.jar:'
+  + libdir + 'com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar:'
+  + libdir + 'net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:'
+  + libdir + 'net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar:'
+  + libdir + 'org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:'
+  + libdir + 'org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar:'
   + libdir + 'com/ibm/icu/icu4j/66.1/icu4j-66.1.jar:'
   + libdir + 'com/mojang/javabridge/1.1.23/javabridge-1.1.23.jar:'
   + libdir + 'net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:'
@@ -77,17 +80,17 @@ real_command = [
   + libdir + 'commons-codec/commons-codec/1.10/commons-codec-1.10.jar:'
   + libdir + 'net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:'
   + libdir + 'net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:'
-  + libdir + 'com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar:'
+  + libdir + 'com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:'
   + libdir + 'com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:'
   + libdir + 'com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:'
-  + libdir + 'com/mojang/authlib/2.1.28/authlib-2.1.28.jar:'
+  + libdir + 'com/mojang/authlib/2.3.31/authlib-2.3.31.jar:'
   + libdir + 'org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:'
   + libdir + 'org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:'
   + libdir + 'commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:'
   + libdir + 'org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:'
   + libdir + 'it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar:'
-  + libdir + 'org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar:'
-  + libdir + 'org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:'
+  + libdir + 'org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:'
+  + libdir + 'org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:'
   + lwjgl3_libs
   + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:'
   + mc_directory + '/versions/' + mc_version + '/' + mc_version + '.jar',
