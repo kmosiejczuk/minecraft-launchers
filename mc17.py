@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "1.17"
+mc_version = "1.17.1"
 
 # Asset index is same but without final revision
 asset_index = "1.17"
@@ -65,7 +65,7 @@ real_command = [
   '-cp',
     libdir + 'com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar:'
   + libdir + 'com/mojang/patchy/2.1.6/patchy-2.1.6.jar:'
-  + libdir + 'com/github/oshi/oshi-core/5.3.4/oshi-core-5.3.4.jar:'
+  + libdir + 'com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar:'
   + libdir + 'net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:'
   + libdir + 'net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar:'
   + libdir + 'org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:'
@@ -83,7 +83,7 @@ real_command = [
   + libdir + 'com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:'
   + libdir + 'com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:'
   + libdir + 'com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:'
-  + libdir + 'com/mojang/authlib/2.3.31/authlib-2.3.31.jar:'
+  + libdir + 'com/mojang/authlib/2.2.30/authlib-2.2.30.jar:'
   + libdir + 'org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:'
   + libdir + 'org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:'
   + libdir + 'commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:'
@@ -103,7 +103,7 @@ real_command = [
   '--uuid', uuid,
   '--accessToken', token,
   '--userType', 'mojang',
-  '--versionType', 'snapshot'
+  '--versionType', 'release'
 ]
 
 # Start Minecraft
