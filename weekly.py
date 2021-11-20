@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "1.18-pre4"
+mc_version = "1.18-pre5"
 
 # Asset index is same but without final revision
 asset_index = "1.18"
@@ -82,7 +82,7 @@ real_command = [
   + libdir + 'com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:'
   + libdir + 'com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:'
   + libdir + 'com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:'
-  + libdir + 'com/mojang/authlib/3.2.37/authlib-3.2.37.jar:'
+  + libdir + 'com/mojang/authlib/3.2.38/authlib-3.2.38.jar:'
   + libdir + 'org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:'
   + libdir + 'org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:'
   + libdir + 'commons-logging/commons-logging/1.2/commons-logging-1.2.jar:'
