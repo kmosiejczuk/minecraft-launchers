@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "1.18-pre5"
+mc_version = "1.18-pre6"
 
 # Asset index is same but without final revision
 asset_index = "1.18"
