@@ -57,8 +57,8 @@ token =    login_data["accessToken"]
 
 real_command = [
   '/usr/local/jdk-17/bin/java',
-  '-Xms3G',
-  '-Xmx6G',
+  '-Xms2G',
+  '-Xmx4G',
   '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
