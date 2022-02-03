@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "22w03a"
+mc_version = "22w05a"
 
 # Asset index is same but without final revision
 asset_index = "1.18"
@@ -65,7 +65,7 @@ real_command = [
   '-cp',
   libdir + 'com/mojang/logging/1.0.0/logging-1.0.0.jar:'
   + libdir + 'com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:'
-  + libdir + 'com/mojang/patchy/2.2.0/patchy-2.2.0.jar:'
+  + libdir + 'com/mojang/patchy/2.2.10/patchy-2.2.10.jar:'
   + libdir + 'com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:'
   + libdir + 'net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:'
   + libdir + 'net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:'
