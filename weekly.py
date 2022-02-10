@@ -4,7 +4,7 @@ import minecraft_launcher_lib as mll
 import subprocess
 
 # Minecraft version
-mc_version = "22w05a"
+mc_version = "22w06a"
 
 # Asset index is same but without final revision
 asset_index = "1.18"
@@ -58,7 +58,7 @@ token =    login_data["accessToken"]
 real_command = [
   '/usr/local/jdk-17/bin/java',
   '-Xms2G',
-  '-Xmx3G',
+  '-Xmx6G',
   '-Djava.library.path=/usr/local/share/lwjgl3/',
   '-Dminecraft.launcher.brand=minecraft-launcher-lib',
   '-Dminecraft.launcher.version=2.1',
@@ -92,7 +92,7 @@ real_command = [
   + libdir + 'org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar:'
   + libdir + 'org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar:'
   + lwjgl3_libs
-  + libdir + 'com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:'
+  + libdir + 'com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar:'
   + mc_directory + '/versions/' + mc_version + '/' + mc_version + '.jar',
   'net.minecraft.client.main.Main',
   '--username', username,
